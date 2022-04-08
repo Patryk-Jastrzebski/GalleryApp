@@ -11,7 +11,8 @@ import SwiftUI
 struct GalleryApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainScreenView()
+                .preferredColorScheme(.dark)
         }
     }
 }

@@ -16,6 +16,8 @@
 		5E278E8F27EBE04000683D49 /* GalleryAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E278E8E27EBE04000683D49 /* GalleryAppUITestsLaunchTests.swift */; };
 		5E278EA127EBE27B00683D49 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E278EA027EBE27B00683D49 /* HomeViewModel.swift */; };
 		5E8FA0C027FDF8B800FFF3F6 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FA0BF27FDF8B800FFF3F6 /* ImagePicker.swift */; };
+		5E8FA0C227FF910100FFF3F6 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FA0C127FF910100FFF3F6 /* ImageSaver.swift */; };
+		5E8FA0C627FF9F3900FFF3F6 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FA0C527FF9F3900FFF3F6 /* MainScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		5E278E8E27EBE04000683D49 /* GalleryAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5E278EA027EBE27B00683D49 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		5E8FA0BF27FDF8B800FFF3F6 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		5E8FA0C127FF910100FFF3F6 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		5E8FA0C527FF9F3900FFF3F6 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +149,7 @@
 			children = (
 				5E278E7327EBE03E00683D49 /* ContentView.swift */,
 				5E278E7127EBE03E00683D49 /* GalleryApp.swift */,
-				5E8FA0BF27FDF8B800FFF3F6 /* ImagePicker.swift */,
+				5E8FA0C527FF9F3900FFF3F6 /* MainScreenView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -153,6 +157,8 @@
 		5E278E9D27EBE21300683D49 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5E8FA0BF27FDF8B800FFF3F6 /* ImagePicker.swift */,
+				5E8FA0C127FF910100FFF3F6 /* ImageSaver.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -288,7 +294,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E278E7427EBE03E00683D49 /* ContentView.swift in Sources */,
+				5E8FA0C627FF9F3900FFF3F6 /* MainScreenView.swift in Sources */,
 				5E8FA0C027FDF8B800FFF3F6 /* ImagePicker.swift in Sources */,
+				5E8FA0C227FF910100FFF3F6 /* ImageSaver.swift in Sources */,
 				5E278EA127EBE27B00683D49 /* HomeViewModel.swift in Sources */,
 				5E278E7227EBE03E00683D49 /* GalleryApp.swift in Sources */,
 			);
