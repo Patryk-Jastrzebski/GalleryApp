@@ -18,6 +18,7 @@
 		5E8FA0C027FDF8B800FFF3F6 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FA0BF27FDF8B800FFF3F6 /* ImagePicker.swift */; };
 		5E8FA0C227FF910100FFF3F6 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FA0C127FF910100FFF3F6 /* ImageSaver.swift */; };
 		5E8FA0C627FF9F3900FFF3F6 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FA0C527FF9F3900FFF3F6 /* MainScreenView.swift */; };
+		5EEDB7EB2810A8840036291B /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEDB7EA2810A8840036291B /* NavigationBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		5E8FA0BF27FDF8B800FFF3F6 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		5E8FA0C127FF910100FFF3F6 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 		5E8FA0C527FF9F3900FFF3F6 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		5EEDB7EA2810A8840036291B /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		5E278E7027EBE03E00683D49 /* GalleryApp */ = {
 			isa = PBXGroup;
 			children = (
+				5EEDB7E92810A8680036291B /* UI */,
 				5E278E9B27EBE1FB00683D49 /* ViewModel */,
 				5E278E9D27EBE21300683D49 /* Model */,
 				5E278E9C27EBE20700683D49 /* View */,
@@ -161,6 +164,14 @@
 				5E8FA0C127FF910100FFF3F6 /* ImageSaver.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		5EEDB7E92810A8680036291B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5EEDB7EA2810A8840036291B /* NavigationBar.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,6 +308,7 @@
 				5E8FA0C627FF9F3900FFF3F6 /* MainScreenView.swift in Sources */,
 				5E8FA0C027FDF8B800FFF3F6 /* ImagePicker.swift in Sources */,
 				5E8FA0C227FF910100FFF3F6 /* ImageSaver.swift in Sources */,
+				5EEDB7EB2810A8840036291B /* NavigationBar.swift in Sources */,
 				5E278EA127EBE27B00683D49 /* HomeViewModel.swift in Sources */,
 				5E278E7227EBE03E00683D49 /* GalleryApp.swift in Sources */,
 			);

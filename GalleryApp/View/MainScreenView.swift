@@ -19,7 +19,7 @@ struct MainScreenView: View {
             self.spacingBottomValue = 0
         } else {
             self.spacingValue = 30
-            self.spacingBottomValue = 10
+            self.spacingBottomValue = 30
         }
     }
     
@@ -30,7 +30,7 @@ struct MainScreenView: View {
                 .scaleEffect(0.13)
                 .frame(width: 400, height: 500, alignment: .center)
                 .cornerRadius(50)
-                .position(x:193,y: 30)
+                .position(x:190)
                 
             VStack(spacing: spacingValue) {
                 HStack {
@@ -38,7 +38,7 @@ struct MainScreenView: View {
                         .font(Font.system(.largeTitle))
                         .foregroundColor(Color.white)
                     VStack {
-                    Text("Aż 10 różnych filtrów")
+                    Text("Aż 6 różnych filtrów")
                         .font(Font.system(.title3))
                         .fontWeight(.bold)
                         .foregroundColor(.white)
@@ -103,6 +103,8 @@ struct MainScreenView: View {
         }
         
     }
+    
+    
 }
 
 struct MainScreenView_Previews: PreviewProvider {
